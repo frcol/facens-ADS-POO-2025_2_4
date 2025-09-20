@@ -36,8 +36,7 @@ public class Livro {
     }
     
     public String imprimir() {
-        String msg = nome+"("+isbn+") - "+numPaginas;
-        return msg;
-                    
+        String msg = nome+"("+isbn+") - paginas:"+numPaginas;
+        return msg;            
     }
 }

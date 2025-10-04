@@ -48,5 +48,11 @@ public class Main_Pessoa {
                 pessoa.imprimir();
             }
         }
+        
+        for (Pessoa pessoa : lstPessoas) {
+            if (pessoa.getCpf().equals("33333")) {
+                pessoa.imprimir();
+            }
+        }
     }
 }
